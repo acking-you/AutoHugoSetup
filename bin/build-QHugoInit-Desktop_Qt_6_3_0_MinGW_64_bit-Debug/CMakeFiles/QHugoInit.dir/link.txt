@@ -1,0 +1,3 @@
+"C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\QHugoInit.dir/objects.a
+D:\Qt6\Tools\mingw900_64\bin\ar.exe qc CMakeFiles\QHugoInit.dir/objects.a @CMakeFiles\QHugoInit.dir\objects1.rsp
+D:\Qt6\Tools\mingw900_64\bin\g++.exe -g -mwindows -Wl,--whole-archive CMakeFiles\QHugoInit.dir/objects.a -Wl,--no-whole-archive -o QHugoInit.exe -Wl,--out-implib,libQHugoInit.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\QHugoInit.dir\linklibs.rsp

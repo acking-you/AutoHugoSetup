@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/">
+        <file>favicon.ico</file>
+        <file>waiting.gif</file>
+    </qresource>
+</RCC>

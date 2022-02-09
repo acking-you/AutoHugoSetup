@@ -1,0 +1,60 @@
+
+
+Wed Feb 09 18:51:51 2022
+
+-----1st step-----
+
+C:\Users\Alone\Desktop\AutoHugoSetup\bin\build-QHugoInit-Desktop_Qt_6_3_0_MinGW_64_bit-Debug>chcp 65001 
+Active code page: 65001
+
+C:\Users\Alone\Desktop\AutoHugoSetup\bin\build-QHugoInit-Desktop_Qt_6_3_0_MinGW_64_bit-Debug>copy .\hugo.exe C:\Users\Alone\Desktop\test 
+        1 file(s) copied.
+
+C:\Users\Alone\Desktop\AutoHugoSetup\bin\build-QHugoInit-Desktop_Qt_6_3_0_MinGW_64_bit-Debug>cd /dC:\Users\Alone\Desktop\test 
+
+C:\Users\Alone\Desktop\test>.\hugo new site myBlog 
+Congratulations! Your new Hugo site is created in C:\Users\Alone\Desktop\test\myBlog.
+
+Just a few more steps and you're ready to go:
+
+1. Download a theme into the same-named folder.
+   Choose a theme from https://themes.gohugo.io/ or
+   create your own with the "hugo new theme <THEMENAME>" command.
+2. Perhaps you want to add some content. You can add single files
+   with "hugo new <SECTIONNAME>\<FILENAME>.<FORMAT>".
+3. Start the built-in live server via "hugo server".
+
+Visit https://gohugo.io/ for quickstart guide and full documentation.
+
+-----3rd step-----
+
+C:\Users\Alone\Desktop\AutoHugoSetup\bin\build-QHugoInit-Desktop_Qt_6_3_0_MinGW_64_bit-Debug>cd /dC:\Users\Alone\Desktop\test\myBlog 
+
+C:\Users\Alone\Desktop\test\myBlog>del .\config.toml 
+
+C:\Users\Alone\Desktop\test\myBlog>move .\themes\FeelIt\config.toml .\ 
+移动了         1 个文件。
+
+C:\Users\Alone\Desktop\test\myBlog>move .\themes\FeelIt\exampleSite\static\*  .\static\ 
+C:\Users\Alone\Desktop\test\myBlog\themes\FeelIt\exampleSite\static\android-chrome-192x192.png
+C:\Users\Alone\Desktop\test\myBlog\themes\FeelIt\exampleSite\static\android-chrome-512x512.png
+C:\Users\Alone\Desktop\test\myBlog\themes\FeelIt\exampleSite\static\apple-touch-icon.png
+C:\Users\Alone\Desktop\test\myBlog\themes\FeelIt\exampleSite\static\browserconfig.xml
+C:\Users\Alone\Desktop\test\myBlog\themes\FeelIt\exampleSite\static\favicon-16x16.png
+C:\Users\Alone\Desktop\test\myBlog\themes\FeelIt\exampleSite\static\favicon-32x32.png
+C:\Users\Alone\Desktop\test\myBlog\themes\FeelIt\exampleSite\static\favicon.ico
+C:\Users\Alone\Desktop\test\myBlog\themes\FeelIt\exampleSite\static\mstile-150x150.png
+C:\Users\Alone\Desktop\test\myBlog\themes\FeelIt\exampleSite\static\safari-pinned-tab.svg
+C:\Users\Alone\Desktop\test\myBlog\themes\FeelIt\exampleSite\static\site.webmanifest
+C:\Users\Alone\Desktop\test\myBlog\themes\FeelIt\exampleSite\static\_redirects
+移动了        11 个文件。
+
+C:\Users\Alone\Desktop\test\myBlog>move ..\hugo.exe .\ 
+移动了         1 个文件。
+
+C:\Users\Alone\Desktop\test\myBlog>mkdir .\content\posts 
+-----2nd step-----
+
+C:\Users\Alone\Desktop\AutoHugoSetup\bin\build-QHugoInit-Desktop_Qt_6_3_0_MinGW_64_bit-Debug>cd /d"C:\\Users\\Alone\\Desktop\\test\\myBlog"\themes 
+
+C:\Users\Alone\Desktop\test\myBlog\themes>git clone https://gitee.com/acking-you/FeelIt.git 

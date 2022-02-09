@@ -1,0 +1,23 @@
+{
+	"BUILD_DIR" : "D:/runBlog/build-QHugoInit-Desktop_Qt_6_3_0_MinGW_64_bit-Debug/QHugoInit_autogen",
+	"CMAKE_BINARY_DIR" : "D:/runBlog/build-QHugoInit-Desktop_Qt_6_3_0_MinGW_64_bit-Debug",
+	"CMAKE_CURRENT_BINARY_DIR" : "D:/runBlog/build-QHugoInit-Desktop_Qt_6_3_0_MinGW_64_bit-Debug",
+	"CMAKE_CURRENT_SOURCE_DIR" : "D:/runBlog/QHugoInit",
+	"CMAKE_SOURCE_DIR" : "D:/runBlog/QHugoInit",
+	"INCLUDE_DIR" : "D:/runBlog/build-QHugoInit-Desktop_Qt_6_3_0_MinGW_64_bit-Debug/QHugoInit_autogen/include",
+	"INPUTS" : 
+	[
+		"D:/runBlog/QHugoInit/waiting.gif",
+		"D:/runBlog/QHugoInit/favicon.ico"
+	],
+	"LOCK_FILE" : "D:/runBlog/build-QHugoInit-Desktop_Qt_6_3_0_MinGW_64_bit-Debug/CMakeFiles/QHugoInit_autogen.dir/AutoRcc_imgs_EWIEGA46WW_Lock.lock",
+	"MULTI_CONFIG" : false,
+	"OPTIONS" : [ "-name", "imgs" ],
+	"OUTPUT_CHECKSUM" : "EWIEGA46WW",
+	"OUTPUT_NAME" : "qrc_imgs.cpp",
+	"RCC_EXECUTABLE" : "D:/Qt6/6.3.0/mingw_64/./bin/rcc.exe",
+	"RCC_LIST_OPTIONS" : [ "--list" ],
+	"SETTINGS_FILE" : "D:/runBlog/build-QHugoInit-Desktop_Qt_6_3_0_MinGW_64_bit-Debug/CMakeFiles/QHugoInit_autogen.dir/AutoRcc_imgs_EWIEGA46WW_Used.txt",
+	"SOURCE" : "D:/runBlog/QHugoInit/imgs.qrc",
+	"VERBOSITY" : 0
+}
