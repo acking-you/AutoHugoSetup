@@ -1,6 +1,6 @@
 ## 软件使用
 
-[视频教程](#)
+[视频教程](https://www.bilibili.com/video/BV11S4y1G7SW)
 
 
 
